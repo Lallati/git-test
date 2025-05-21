@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installation des dépendances (aucune requise pour HTML/CSS simples)"
+  build:
+    commands:
+      - echo "Phase de build (aucune action requise pour HTML/CSS simples)"
+
+artifacts:
+  files:
+    - '*/'
+  base-directory: .
